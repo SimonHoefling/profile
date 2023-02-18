@@ -23,6 +23,9 @@
   height: 150px;
   margin-top: 30px;
   border-radius: 50%;
+  -webkit-box-shadow: 6px 6px 23px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 23px -6px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 23px -6px rgba(0,0,0,0.75);
 }
 .name {
   top: 190px;
@@ -60,4 +63,12 @@
   hsl(318deg 35% 65%) 66%,hsl(329deg 42% 67%) 73%,
   hsl(337deg 49% 67%) 79%,hsl(345deg 53% 68%) 86%,
   hsl(352deg 57% 69%) 93%,hsl(359deg 58% 69%) 100%);
+  background-size: 150% auto;
+  transition: 0.5s;
+  -webkit-box-shadow: 6px 6px 23px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 23px -6px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 23px -6px rgba(0,0,0,0.75);
+}
+.hire-link:hover{
+  background-position: right center;
 }
