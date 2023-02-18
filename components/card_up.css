@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 :root {
   --name-color: #000000;
@@ -11,7 +12,7 @@
   position: relative;
   width: 100%;
   height: 75%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Titan One', cursive;
 }
 .profile-picture, .name, .title, .description, .hire-link {
   position: absolute;
@@ -26,10 +27,11 @@
   -webkit-box-shadow: 6px 6px 23px -6px rgba(0,0,0,0.75);
   -moz-box-shadow: 6px 6px 23px -6px rgba(0,0,0,0.75);
   box-shadow: 6px 6px 23px -6px rgba(0,0,0,0.75);
+  filter: brightness(120%);
 }
 .name {
-  top: 190px;
-  font-size: 26px;
+  top: 195px;
+  font-size: 24px;
   font-weight: 600;
   color: var(--name-color);
 }
@@ -44,15 +46,18 @@
   width: 100%;
   text-align: center;
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: var(--description-color);
+  line-height: 1.5;
 }
 .hire-link {
-  top: 380px;
+  top: 410px;
   text-decoration: none;
-  padding: 10px 30px;
+  padding: 15px 40px;
   border-radius: 30px;
+  font-size: 18px;
   color: #ffffff;
   background-image: linear-gradient(
   45deg,
@@ -71,4 +76,5 @@
 }
 .hire-link:hover{
   background-position: right center;
+  color: #000000;
 }
