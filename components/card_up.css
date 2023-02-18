@@ -7,7 +7,13 @@
   --discription-color: #151414;
 }
 
-
+/* This is the styling for
+  - the profile picture
+  - the name
+  - the title
+  - the description
+  - the button
+*/
 .top {
   position: relative;
   width: 100%;
