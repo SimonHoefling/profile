@@ -10,3 +10,6 @@
   width: 70px;
   height: 70px;
 }
+.svg-logo:hover {
+  scale: 1.1;
+}
